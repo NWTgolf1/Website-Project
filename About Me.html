@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+	<title>About Me</title>
+	<style type="text/css">
+		header {
+			background-color: blue;
+			color: #FFFFFF;
+			width: 100%;
+			margin: 0px;
+			padding: 0px;
+			height: 70px;
+		}
+		
+		body {
+			margin: 0px;
+			height: 600px;
+			background-image: url("chicago-cubs-logo");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+		}
+		
+		#content {
+			background-color: white;
+			width: 900px;
+			height: 200%;
+			margin: auto;
+		}
+		
+		aside {
+			float: left;
+			border: solid 1px black;
+			height: 500px;
+			width: 100px;
+		}
+		#sidebar_image {
+			width: 75px;
+			height: 75px;
+			border-radius: 50%;
+			border: solid 2px black;
+			transform: translate(0px, -50%);
+			margin-bottom: -30px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		a {
+			font-family: "Arial", sans;
+			text-decoration: none;
+			margin-bottom: 10px;
+			margin-right: 5px;
+			margin-left: 5px;
+			display: block;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		
+		section {
+			border: solid 1px black;
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+			border-radius: 7px;
+			margin-left: 110px;
+			margin-right: 8px;
+			margin-bottom: 7px;
+			padding-left: 7px;
+			padding-right: 7px;
+			padding-top: 0px;
+		}
+		.post_title {
+			margin: 0px;
+			background-color: #f44242;
+			margin-left: -7px;
+			margin-right: -7px;
+			overflow: hidden;
+			padding: 5px;
+			font-family: "Arial", Sans;
+		}
+		
+		.byline {
+			margin: 2px;
+		}
+		
+		.post_content{
+			text-align: justify;
+			
+		}
+		
+		.post_image {
+			height: 100px;
+			float: right;
+			margin-left: 10px;
+			margin-bottom: 5px;
+		}
+		
+		#title_text {
+			position: abosolute;
+			top: 25px;
+			left: 200px;
+			font-family: "Arial", Sans;
+			font-size: 2em;
+		}
+		
+		#subheader_text {
+			padding-top: 3px;
+			padding-bottom: 10px;
+			margin-left: 115px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body background="chicago-cubs-logo.jpg">
+	<header>
+		<div id="title_text">Eric Viohl</div>
+	</header>
+	<div id="content">
+		<aside>
+			<img id="sidebar_image" src="pc-clipart.jpg">
+			<a href="About Me.html">Home</a>						
+			<a href="Contact.html">Contact</a>			
+			<div style="position: absolute; bottom: 0px">&copy;2017</div>
+		</aside>
+		<article>
+			<div id="subheader_text">A  blog about Me</div>
+			<section>
+				<h3 class="post_title">A little about Myself as a Programmer</h3>
+				<h5 class="byline">By Eric</h5>
+				<img class="post_image" src="boba fett.jpg">
+				<p class="post_content">
+				I am striving to become a web developer or at least a test engineer so that I can gain experience in programming. I'm still working harnessing my skills as a programmer and will work towards being the best programmer I can be as time continues. 
+				</p>
+			</section>
+			<section>
+				<h3 class="post_title">Sports</h3>
+				<h5 class="byline">By Eric </h5>
+				<img class="post_image" src="discord.jpg">
+				<p class="post_content">
+				I have hobbies and activities that I like to do in my spare time, one of which is sports. I mainly play golf but I will play others such as tennis, basketball, and bowling.
+				</p>
+			</section>
+		</article>
+	</div>
+</body>
+
+</html>
